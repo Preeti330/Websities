@@ -1,0 +1,1039 @@
+.navbar1{
+    padding: 18px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    column-gap: 4px;
+    margin-bottom: 0;
+    align-items: center;
+}
+.icon {
+    font-size: 23px;
+}
+header{
+    background-color: #F2F2F2;
+}
+
+section{
+    padding: 29px 0;
+}
+
+.adjust{
+    padding: 0 30px;
+}
+
+.caroselImg{
+    padding: 0px 124px;
+}
+
+.caroselText h5{
+    font-size: 27px;
+    font-weight: 600;
+    color: cornsilk;
+    line-height: 1;
+}
+
+.caroselText p {
+    font-size: 17px;
+    font-weight: 200;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.caroselText {
+    position: relative;
+    top: -74px;
+    left: -111px;
+    padding: 0 103px;
+    text-align: start;
+}
+
+
+.blogIcon img{
+    float: left;
+    border-radius: 50px;
+    width: 50px;
+}
+
+
+.blogText p{
+    font-family: system-ui;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.blogHead  h2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: none;
+}
+.blogHead h6{
+    font-size: 13px;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.imgBlog img{
+    width: 100%;
+}
+
+.imgBlog {
+    width: 100%;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.firstBox{
+    max-width: 100%;
+}
+
+.firstBoxImg{
+    width: 100%;
+}
+
+
+
+.bloagConatiner{
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    column-gap: 20px;
+    padding: 24px 0;
+}
+
+
+.text h4,.aboutText h3{
+    font-size: 22px;
+    font-family: math;
+    font-weight: 600;
+}
+
+.firstBoxImg span ,.aboutItem2 span {
+    font-size: 12px;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+.firstBox {
+    max-width: 100%;
+}
+
+.firstBox img{
+    width: 100%;
+}
+
+.firstBoxImg {
+    width: 100%;
+}
+
+.firstBox{
+    max-width: 100%;
+}
+
+.bodyblog p
+{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.bodyblog h4{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: emoji;
+}
+.bodyblog span{
+    font-size: 54px;
+    font-weight: 100;
+    font-family: ui-rounded;
+}
+
+
+.head h3{
+    font-size: 27px;
+    font-weight: 500;
+    font-family: fangsong;
+    text-align: center;
+}
+
+.mainBox{
+    border: 1px solid;
+    /* padding: 0 18px; */
+    text-align: start;
+}
+
+
+.bodyblogtext{
+    /* position: relative;
+    top: -65px;
+    left: 21px;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 14px; */
+}
+
+
+
+
+.mainBox{
+    border: 1px solid;
+    padding: 0 18px;
+    text-align: start;
+}
+
+.bodyblogtext p{
+    font-family: emoji;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+.bodyblogtext h4{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: serif;
+}
+
+
+
+.mainBox ul li {
+    padding: 13px 0;
+    /* padding-left: 2px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainBox ul{
+    max-width: 100%;
+    padding: 0;
+}
+
+
+.mainBox{
+    border: 1px solid;
+    /* padding: 0 18px; */
+    text-align: start;
+}
+
+.mainBox ul li{
+    font-size: 90px;
+    font-family: emoji;
+    font-weight: 100;
+}
+
+
+.clutreImg img{
+    max-width: 100%;
+}
+
+.clutreImg{
+    width: 100%;
+}
+
+.clutureMain{
+    padding: 26px 2px;
+}
+
+.clutureHead{
+    padding: 4px 2px;
+}
+
+.clutureHead p,.aboutText p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.clutureHead h4{
+    font-size: 26px;
+    font-family: emoji;
+    font-weight: 600;
+}
+
+.clutureHead span{
+    font-size: 14px;
+    font-weight: 100;
+    font-family: inherit;
+    
+}
+
+.clutureMain {
+    /* padding-bottom: 36px; */
+    /* padding: 4px 2px; */
+}
+
+.clutureIcon img {
+    width: 50px;
+    border-radius: 50px;
+}
+.clutureIcon{
+    width: 100%;
+}
+
+
+.clutureMain .firstBox{
+    /* border-bottom: 1px solid; */
+    /* margin-bottom: 2px; */
+    padding-top: 3px;
+}
+
+.clutureHead li{
+    line-height: 2;
+    padding-bottom: 3px;
+    border-bottom: 1px solid;
+}
+
+.clutureHead ul{
+    list-style: none;
+    /* line-height: 3; */
+    text-align: start;
+    padding-left: 0;
+
+}
+
+
+.clutureMainHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.blogItem1 {
+    flex-basis: 159%;
+}
+
+
+.blogItemMain{
+    flex-basis: 139%;
+    flex-basis: 240%;  display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* flex-basis: fit-content; */
+    gap: 30px;
+    flex-basis: fit-content;
+    flex-basis: 188%;
+}
+
+.blogItem2{
+    flex-basis: 246%;
+}
+
+
+.BusinessRow{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: start;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+
+.bussinessContainer{
+    padding: 18px 0;
+    display: flex;
+    column-gap: 20px;
+}
+
+.bussinessHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+
+.flex-container{
+    max-width: 1160px;
+    margin: auto;
+}
+
+
+.BusinessItem2 .clutureMain{
+    padding: 4px 2px;
+}
+.BusinessItem2 .clutureHead {
+    padding: 0;
+}
+
+.BussinesMain1{
+    min-width: 273px;
+}
+
+.BussinesMain{
+    max-width: 831px;
+}
+
+.BusinessRow{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: start;
+    column-gap: 20px;
+    padding-bottom: 30px;
+}
+
+.BusinessItem{
+    min-width: 538px;
+}
+
+.BusinessItem2{
+    min-width:293px;
+}
+
+.BusinessImg img{
+    max-width: 100%;
+}
+
+.BusinessImg{
+    width: 100%;
+}
+
+.footertext{
+    position: absolute;
+    top: 0;
+    left: 69px;
+    padding: 0;
+    line-height: 1;
+}
+
+.footerImg img{
+    width: 55px;
+}
+
+
+
+.footerImg{
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.footerNav{
+    min-width: 148px;
+}
+.footerabout {
+    min-width: 372px;
+    line-height: 2;
+}
+
+.footerconent{
+    max-width: 1120px;
+    margin: auto;
+    padding: 19px 0;
+    display: flex;
+    column-gap: 22px;
+}
+
+footer{
+    padding: 14px 0;
+    margin: auto;
+    background: #191919;
+    color:#ffffff ;
+}
+
+footer ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+footer li{
+
+}
+
+footer h4{
+    padding-bottom: 11px;
+}
+
+.copyright{
+    /* max-width: 1120px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 62px
+}
+
+.aboutHeader{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.aboutHeader h2{
+    font-size: 46px;
+    font-weight: 600;
+    font-family: auto;
+}
+
+.aboutConatiner{
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* column-gap: 20px; */
+    gap: 40px;
+}
+
+.aboutText{
+    padding-left: 42px;
+}
+.aboutItem{
+    min-width: 574px;
+}
+
+.aboutRow{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+
+
+.aboutSection{
+    background:#F8F9FA;
+}
+
+.aboutNewsConatiner{
+    display: flex;
+    gap: 20px;
+}
+
+.aboutNewsItem{
+    min-width: 543px;
+}
+
+.aboutNewsItem2{
+    min-width: 557px;
+    display: flex;
+    gap: 29px;
+}
+
+.aboutnewsImg{
+    min-width: 268px;
+}
+
+.aboutnewsImg img{
+    width: 100%;
+    height: 327px;
+    /* height: 310px; */
+    object-fit: cover;
+}
+.abImg{
+    padding: 28px 0;
+}
+
+
+.teamProfile img{
+    border-radius: 161px;
+    height: 164px;
+}
+
+.teamProfile {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.teamItem{
+    min-width: 367px;
+    text-align: center;
+}
+
+.teamAboutRow{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+
+.teamHead p{
+    max-width: 538px;
+    text-align: center;
+    line-break: inherit;
+    margin: auto;
+}
+
+
+.teamHead {
+    padding: 19px 20px;
+    text-align: center;
+}
+
+.contacticons{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 19px 0px;
+}
+
+.contactHead{
+    text-align: center;
+}
+
+
+.conatctDetails{
+    line-height: 2;
+}
+
+.conatctDetails i{
+    font-size: 55px;
+}
+
+.conatctDetails p{
+    font-weight: 100;
+}
+
+.conatctDetails h4{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.contactInfo{
+    padding: 1px 42px
+}
+
+
+.contactInfoDetails{
+    padding: 9px 13px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.name1{
+    min-width: 495px;
+}
+
+.contactName{
+    display: flex;
+    gap: 20px;
+}
+
+
+.postItem p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.postLater::first-letter{
+    color: #000000;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: auto;
+}
+
+.postItem h4{
+    font-size: 40px;
+    font-family: auto;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.postItem{
+    width: 70%;
+    margin: auto;
+}
+
+.postRow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post{
+    display: flex;
+    gap: 20px;
+}
+
+.postImg img{
+    width: 100%;
+    max-height: 485px;
+    object-fit: fill
+}
+
+.postImg {
+    max-width: 850px;
+}
+
+.postItem2{
+    min-width: 100%;
+}
+
+.postItem{
+    max-width: 602px;
+    margin: auto;
+}
+
+.postColItem{
+    min-width: 860px;
+}
+
+.postColItem2{
+    min-width: 220px;
+}
+
+
+
+.postMain{
+    padding-bottom: 4px;
+}
+
+.postMailLink{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.postMailLink a{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.postMain p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.firstBox{
+    max-width: 100%;
+    padding: 0;
+}
+
+
+.firstBox span{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+.firstBox .text{
+    padding-top: 12px;
+    border-bottom: 1px solid;
+}
+
+.firstVideo ul{
+    list-style: none;
+    padding: 0;
+}
+
+.firstVideo{
+    padding-bottom: 20px;
+}
+
+.firstVideo img{
+    width: 219px;
+}
+.firstVideo h6::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.comments{
+    width: 70%;
+    margin: auto;
+}
+
+.commentsHead{
+    padding: 9px 0;
+}
+
+.commentProfile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.commentImg {
+    width: 100%;
+    position: relative;
+    padding-bottom: 61px;
+}
+
+.commentImg img{
+    width: 42px;
+    border-radius: 50px;
+}
+
+.commentImg .text{
+    position: absolute;
+    top: 0;
+    left: 63px;
+}
+
+.commentConatiner h2{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: auto;
+}
+
+.commentConatiner {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 501px;
+    /* margin: auto; */
+    margin-left: 58px;
+    /* padding-left: 28px; */
+    padding: 13px 21px;
+    background: azure;
+}
+
+.contactName .name1{
+    min-width: 320px;
+}
+
+.tagItems{
+    border: 2px solid;
+    display: inline-block;
+    padding: 7px 7px;
+    margin: 6px 0;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 480px){
+   .navbar1 ul{
+        flex-wrap: wrap;
+    }
+
+    .navbar1 .icon {
+        display: none;
+    }
+
+    .caroselImg{
+        padding: 0;
+    }
+
+    .blogItemMain{
+        flex-wrap: wrap;
+    }
+
+    .bloagConatiner{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 18px 10px;
+    }
+
+    .adjust{
+        padding: 0 10px;
+    }
+
+    .BusinessRow{
+        flex-wrap: wrap;
+    }
+
+    .BussinesMain{
+        max-width: 392px;
+    }
+    
+
+    .bussinessContainer{
+        flex-wrap: wrap;
+    }
+
+    .BusinessItem{
+        min-width: 392px;
+    }
+
+    .footerconent{
+        padding: 17px 9px;
+        max-width: 390px;
+        flex-wrap: wrap;
+    }
+
+
+    .postItem {
+        min-width: 192px;
+    }
+
+    .post{
+        max-width: 392px;
+    }
+    .postColItem{
+        min-width: 392px;
+    }
+    .postColItem2{
+        min-width: 392px;
+    }
+
+    .postRow{
+        max-width: 392px;
+    }
+
+   .copyright .icon{
+        display: flex;
+        flex-direction: column;
+        gap: 9px
+    }
+
+    .tags{
+        justify-content: start;
+        gap: 23px;
+    }
+
+    .firstVideo{
+        width: 392px;
+    }
+
+    .contactName{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .contactInfo{
+        padding: 0;
+    }
+
+    .commentConatiner{
+        min-width: 392px;
+        max-width: 392px;
+        margin: 0;
+        margin-top: 76px;
+    }
+
+    .comments{
+        width: 100%;
+        margin: 0;
+    }
+
+    .aboutConatiner{
+        padding: 0;
+    }
+
+    .aboutRow{
+        flex-wrap: wrap;
+    }
+    .aboutItem{
+        min-width: 392px;
+    }
+
+    .aboutnewsImg , .abImg{
+        min-width: 170px;
+    }
+
+    .aboutNewsItem2{
+        min-width: 392px;
+    }
+
+
+    .aboutNewsItem{
+        min-width: 392px;
+    }
+
+    .aboutNewsConatiner{
+        flex-wrap: wrap;
+        min-width: 392px;
+    }
+    
+
+    .teamAboutRow{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width:830px){
+
+    
+        .caroselText{
+            top: 0;
+            padding: 0;
+            left: 0;
+            width: fit-content;
+        }
+
+        .caroselText {
+            padding: 0;
+            width: 100%;
+            color: black;
+        }
+
+        .bloagConatiner{
+            padding: 0 20px;
+        }
+
+        .BusinessItem .imgBlog{
+            max-width: 450px;
+        }
+
+        .BusinessRow{
+            flex-wrap: wrap;
+            max-width: 470px;
+        }
+
+        .imgBlog{
+            max-width: 449px;
+        }
+
+        .BusinessItem , .BusinessImg{
+            max-width: 470px;
+        }
+
+        .bloagConatiner{
+            padding: 20px 0;
+            
+        }
+        .bloagConatiner{
+            padding: 0 15px;
+        }
+
+        .adjust{
+            padding: 0 15px;
+        }
+
+
+        .aboutItem  .imgBlog{
+            max-width: 773px;
+        }
+
+        .aboutItem{
+            width: 100%;
+            max-width: 773px;
+        }
+
+        .aboutRow{
+            flex-wrap: wrap;
+        }
+
+        .aboutnewsImg{
+            min-width: 369px;
+        }
+
+        .aboutNewsItem2{
+            min-width: 769px;
+        }
+
+        .aboutNewsConatiner{
+            flex-wrap: wrap;
+        }
+
+        .team{
+            max-width: 769px;
+        }
+
+        .teamAboutRow{
+            max-width: 769px;
+        }
+
+        .teamItem{
+            min-width: 335px;
+        }
+}
