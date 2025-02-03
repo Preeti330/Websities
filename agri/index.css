@@ -1,0 +1,460 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.headImag{    
+    padding: 27px 39px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    column-gap: 29px;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #0f0101;
+}
+.nav ul li a:visited{
+    color: #047e06;
+}
+
+.headImag img{
+    width: 50px;
+    height: 54px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #f9f6f6;
+}
+
+.corselText h5{
+    font-size: 52px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.corselText p{
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+}
+.corselText{
+    position: absolute;
+    top: 37px;
+}
+.service{
+    padding: 22px 0;
+}
+
+.card{
+    border-radius: 0px;
+}
+.cardbody{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.cardbody span{
+    font-size: 17px;
+    color: #a3a3a0;
+}
+.card-title{
+    text-align: start;
+    color: #0f0101;
+}
+.card-text{
+    font-size: 15px;
+    color: #524f4f;
+}
+
+.tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 3;
+}
+
+.tittle p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.tittle h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #234b03;
+}
+
+.tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.whyusinfo{
+    display: flex;
+    column-gap: 70px;
+    color: aliceblue;
+}
+
+
+
+.whyustext h7{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: cursive;
+    line-height: 1.4;
+    color: white;
+}
+
+.whyustext p{
+    font-size: 17px;
+    /* font-family: cursive; */
+    color: rgba(240, 250, 250, 0.909);
+    /* font-family: cursive; */
+}
+
+.whyustext h5{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #adafb1;
+    font-family: auto;
+}
+
+.whyustext{
+    padding: 79px 0;
+    line-height: 2;
+}
+
+.whyusimg img{
+    width: 100%;
+    height: 713px;
+}
+
+.whyusimg{
+    position: relative;
+    top: -35px;
+}
+
+.whyus{
+    background: #538203;
+    margin: 46px 0;
+}
+
+.icontext h7{
+    color: #aeb1b3;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: emoji;
+}
+
+.icontext p {
+    font-size: 20px;
+}
+
+.whyustextdesc{
+    padding-bottom: 19px;
+    line-height: 2;
+    /* overflow-wrap: break-word; */
+    word-break: break-word;
+    word-break: auto-phrase;
+}
+
+
+.getTouchin p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.getTouchin h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #234b03;
+    color: green;
+    font-size: 28px;
+    text-transform: uppercase;
+    word-spacing: 11px;
+}
+
+.getTouchin{
+    padding: 59px 0;
+}
+
+.getTouchin button{
+    padding: 12px 16px;
+    text-transform: uppercase;
+}
+
+.getTouchin ul{
+    padding: 0;
+    list-style: none;
+}
+
+.getTouchin ul li{
+    display: flex;
+    justify-content: start;
+    column-gap: 15px;
+    align-items: baseline;
+}
+
+.getTouchin ul li i{
+    color: green;
+    font-size: 12px;
+}
+
+.imgdiv img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.feedback p:nth-of-type(2){
+    text-transform: capitalize;
+    color: #047e06;
+    font-size: 22px;
+}
+
+.imgtext{
+    padding: 5px;
+    background: #3f8103;
+    width: fit-content;
+    font-size: 17px;
+    text-transform: uppercase;
+    position: relative;
+    top: -36px;
+    /* right: 0; */
+    left: 232px;
+    font-weight: 700;
+}
+
+.bloguser{
+    display: flex;
+    column-gap: 12px;
+    border-bottom: 1px solid;
+    padding-top: 12px;
+}
+
+
+.carouselClass{
+    position: absolute;
+    transform: translate3d(10px, 230px, 60px);
+    transition: all 2s ease-in-out;
+}
+
+.titleTrns{
+    transform: translateY(-2.1rem);
+    transition: transform ease-out 1s;
+}
+
+.serviceSec{
+    padding: 20px 0;
+}
+
+.titleTrnsImg{
+    position: relative;
+    top: -30px;
+    transform: translateY(-2.1rem);
+    transition: all ease-out 2s;
+}
+
+.cardimg{
+        cursor: pointer;
+}
+.cardimg img:hover{
+    transform: scale(1);
+    transition: all ease-out 1s ;
+}
+
+.cardimg img:hover::after{
+    transform: scale(1);
+}
+.cardimg img{
+    transform: scale(0.96);
+}
+
+.subscribeText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #c0bcbc;
+}
+
+.subscribeText h4{
+    font-size: 31px;
+}
+
+.subcribe{
+    padding: 59px 0;
+    background: #e0ebf4;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding: 20px 1px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    font-size: 17px;
+    line-height: 3;
+}
+
+.copyrights{
+    display: flex;
+    justify-content: space-between;  
+    padding: 12px 0;
+}
+
+.corselTextAbout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-10%, 10%);
+}
+
+.caroselImgAbout{
+    position: relative;
+}
+
+
+.corselTextAbout h5{
+    font-size: 52px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.corselTextAbout p{
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+}
+
+.aboutsocial{
+    position: absolute;
+    top: 89px;
+    left: 14px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+
+.aboutbloguser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    margin-top: 7px;
+}
+
+.aboutbloguser p {
+    margin: 0;
+}
+.aboutbloguser p:nth-child(1){
+    font-size: 21px;
+    font-family: cursive;
+}
+
+.aboutbloguser p:nth-child(2){
+    font-size: 19px;
+    color: green;
+}
+
+.hoversocial{
+    background: white;
+    color: black;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.hoversocial i{
+    font-size: 22px;
+}
+
+.hoversocial:hover{
+    background-color: #234b03;
+    color: white;
+}
+
+#blogSec .card{
+    box-shadow: 1px 3px 13px #ddd9d9 !important;
+    border-radius: 8px
+}
+
+#blogSec iframe{
+    border: 0;
+    width: 100%;
+    height: 420px;
+}
+
+textarea{
+    width: 100%;
+    height: 268px;
+}
+
+.locationtext{
+    font-size: 12px;
+}
+.loctionicon{
+
+}
+
+.contact .loctaion{
+    display: flex;
+    column-gap: 6px;
+}
+
+.contact .card-body p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact .card-body h5 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.contact .card-body {
+    padding: 28px 24px;
+}
+
+.contact .card{
+    width: 100% !important;
+    box-shadow: -1px 1px 8px;
+}
+
+.contact button{
+    width: 30%;
+    border-radius: 0;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 254px;
+}
