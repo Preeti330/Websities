@@ -1,0 +1,385 @@
+body{
+    width: 100vw;
+    height: auto;
+}
+
+.mainpage{
+    background: url(https://bootstrapmade.com/content/demo/Restaurantly/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 376px;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+
+.mainTittle{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-162%, -51%);
+    padding: 2px 3px;
+    line-height: 3;
+}
+
+.mainTittle p{
+    font-size: 22px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: emoji;
+}
+
+.mainTittle h2{
+    font-size: 43px;
+    font-family: fantasy;
+}
+
+.welcome{
+    color: aqua;
+} 
+.mainbtn{
+    border: 2px solid #db8e01;
+    border-radius: 20px;
+    width: 146px;
+    color: white;
+}
+.mainbtn:hover{
+    color: black;
+    background-color: #f6bd54;
+    opacity: 0.6;
+}
+
+.about{
+    background:url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/about-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 376px;
+    background-position: center;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.aboutImg{
+    padding: 40px 7px;
+}
+
+p{
+    font-size: 15px;
+    color: antiquewhite;
+    color: antiquewhite;
+    font-family: math;
+    word-spacing: 1px;
+    word-break: auto-phrase;
+}
+
+h4{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.abouttext{
+    padding: 40px 0;
+}
+
+ul{
+    list-style: outside;
+    list-style-type: circle;
+    color: aliceblue;
+}
+
+/* p{
+    font-size: 37px;
+    font-weight: 700;
+} */
+
+/* 
+
+.title {
+    padding: 4px 2px;
+} */
+
+.whyus{
+    background: black;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 0;
+}
+
+.whyussec{
+    background: black;
+    width: 100%;
+    height: fit-content;
+    padding: 40px 0;
+    color: white;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: burlywood;
+}
+
+a{
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-family: fangsong;
+    text-transform: capitalize;
+}
+
+.tittle {
+    padding: 2px 0;
+    position: relative;
+}
+
+.whyussec .card{
+    height: 250px;
+    background: #191815 !important;
+    color: white;
+}
+
+.cradtext{
+    padding: 15px;
+}
+
+.cradtext p{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+.cradtext h5{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: fangsong;
+    color: wheat;
+}
+
+.cradtext h6{
+    font-size: 23px;
+    color: wheat;
+}
+
+.whyussec .card :hover *{
+    background-color: wheat;
+    color: black !important;
+}
+
+.tittle h4::before{
+    content: '';
+    width: 103px;
+    border-bottom: solid 3px wheat;
+    position: absolute;
+    left: 73px;
+    z-index: 1;
+    top: 10px;
+}
+
+.tabmenu{
+    padding: 21px 23px;
+}
+
+#menuTab{
+    justify-content: center;
+    border: none;
+}
+
+#menuTab button{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: serif;
+    background: none;
+    border: none;
+    color: aliceblue;
+}
+
+#menuTab li{
+    background: none;
+    color: wheat;
+}
+
+button:visited{
+    background: yellow;
+    color: red;
+}
+
+button:focus {
+    outline: 2px solid blue;
+}
+#menuTab button:active ,#menuTab button:focus{
+    color: wheat !important;
+}
+
+.ItemDes p{
+    color: #dfe3e6;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.menuname {
+    color: wheat;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuImg img{
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.menuItem{
+    display: flex;
+    column-gap: 7px;
+}
+
+.ourspecials  button{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: serif;
+    background: none;
+    border: none;
+    color: aliceblue;
+}
+
+.ourspecials li{
+    background: none;
+    color: wheat;
+}
+
+.ourspecials button:active ,.ourspecials button:focus{
+    color:black !important;
+    background: wheat;
+}
+
+.ourspecials .nav-link :active,.ourspecials .nav-link:focus{
+    background: wheat;
+    color: black;
+}
+.ourspecials button:hover{
+    color: rgb(71, 51, 14) !important;
+}
+
+.ourspecials .nav{
+    border-right: 2px solid;
+}
+
+.oursplsontenttext p {
+    color: #c4d4e2;
+    word-wrap: break-word;
+    word-break: auto-phrase;
+}
+
+.oursplsontenttext h6{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: emoji;
+}
+
+.oursplcontent{
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.oursplcontentimg img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.carosuelImgSec {
+    background: url('https://bootstrapmade.com/content/demo/Restaurantly/assets/img/events-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.croselImgContainer{
+    padding: 44px 91px;
+}
+
+.caroselText{
+    background: wheat;
+    width: 100%;
+    height: 100%;
+}
+
+.caroselText{
+    padding:  30px 30px;
+}
+
+.caroselText h5{
+    font-size: 37px;
+    font-family: fangsong;
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+.caroselText p{
+    font-size: 18px;
+    line-height: 1.2;
+    color: black;
+}
+
+.caroselText ul{
+    font-size: 18px;
+    line-height: 2.2;
+    color: black;
+}
+
+.carouselExampleDark img{
+    height: auto;
+}
+
+.testimonialCard img{
+    width: 89px;
+    height: 88px;
+    border-radius: 51px;
+}
+
+.testimonialCard .card-text{
+    font-size: 13px;
+    font-family: cursive;
+}
+
+.galareyDiv img{
+    width: 100%;
+    height: fit-content;
+    transform: scale(0.98);
+}
+.galareyDiv img:hover{
+    transform: scale(1);
+    transition: all ease-out 2s ;
+}
+
+.galareyDiv img:hover::after{
+    transform: scale(0.98);
+}
+
+.galary .col-lg-3{
+    padding: 0;
+}
+.galary {
+    background-color: #191815;
+}
+.clients img{
+    width: 100%;
+    height: auto;
+}
+
+.clientsSec .card{
+    height: auto !important;
+}
